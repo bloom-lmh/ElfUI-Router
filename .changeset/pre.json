@@ -6,6 +6,7 @@
   },
   "changesets": [
     "align-core-runtime",
-    "release-process"
+    "release-process",
+    "require-core-beta11"
   ]
 }

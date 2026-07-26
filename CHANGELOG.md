@@ -1,5 +1,11 @@
 # @elfui/router
 
+## 0.1.0-beta.11
+
+### Patch Changes
+
+- Require ElfUI Core beta.11 or newer and validate Router against the current reactive prop runtime.
+
 ## 0.1.0-beta.10
 
 ### Patch Changes

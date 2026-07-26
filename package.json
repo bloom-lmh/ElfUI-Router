@@ -1,6 +1,6 @@
 {
   "name": "@elfui/router",
-  "version": "0.1.0-beta.10",
+  "version": "0.1.0-beta.11",
   "description": "Official router for ElfUI applications.",
   "keywords": [
     "elfui",
@@ -47,11 +47,11 @@
     "prepack": "pnpm build"
   },
   "peerDependencies": {
-    "@elfui/core": ">=0.1.0-beta.9 <0.2.0"
+    "@elfui/core": ">=0.1.0-beta.11 <0.2.0"
   },
   "license": "MIT",
   "devDependencies": {
-    "@elfui/core": "0.1.0-beta.9",
+    "@elfui/core": "0.1.0-beta.11",
     "@changesets/cli": "^2.31.0",
     "@types/node": "25.8.0",
     "jsdom": "latest",
