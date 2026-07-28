@@ -51,8 +51,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@elfui/core": "0.1.0-beta.11",
     "@changesets/cli": "^2.31.0",
+    "@elfui/core": "0.1.0-beta.13",
     "@types/node": "25.8.0",
     "jsdom": "latest",
     "typescript": "^5.9.3",
