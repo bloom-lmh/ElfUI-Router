@@ -12,8 +12,8 @@ importers:
         specifier: ^2.31.0
         version: 2.31.0(@types/node@25.8.0)
       '@elfui/core':
-        specifier: 0.1.0-beta.13
-        version: 0.1.0-beta.13
+        specifier: 0.1.0-beta.20
+        version: 0.1.0-beta.20
       '@types/node':
         specifier: 25.8.0
         version: 25.8.0
@@ -143,17 +143,17 @@ packages:
     resolution: {integrity: sha512-QxULHAm7cNu72w97JUNCBFODFaXpbDg+dP8b/oWFAZ2MTRppA3U00Y2L1HqaS4J6yBqxwa/Y3nMBaxVKbB/NsA==}
     engines: {node: '>=20.19.0'}
 
-  '@elfui/core@0.1.0-beta.13':
-    resolution: {integrity: sha512-NXlcVomoRxVU7LdtO+qzDJRKwrPTGz+uMLDo/qkY6lWDqj/UHkb+8wmUR0dmBujCu2RvsWeVGxSg4OVVlzbwfw==}
+  '@elfui/core@0.1.0-beta.20':
+    resolution: {integrity: sha512-w+otxJc0jGebbQhRlgWVi+a/hhYuC7lwn7/Xdg5pK3HcC7xpx3krjMXkF11IYXx7Fe72qDG8U1im7/hb85qkfA==}
 
-  '@elfui/reactivity@0.1.0-beta.13':
-    resolution: {integrity: sha512-f2koDZ5tLWQexEfKQOikc/MZjNoeXWXNswVX8TzqWj7lnCiSXxpReIQqzNNf2zSeqMpT9n4HAzOgY/swtX7+yQ==}
+  '@elfui/reactivity@0.1.0-beta.20':
+    resolution: {integrity: sha512-nvVBKT3kouVY7KIWvFTU+HySTicS8mqf701M+y1DfCA6liIml5hDqBs+YJpyF3UucRChsdHZz0bUkJKOfqzJBQ==}
 
-  '@elfui/runtime@0.1.0-beta.13':
-    resolution: {integrity: sha512-tQp5ksoyi+1Q8+ymeA1c4lq/kiEsUqPQojQEzcYzsA1muOQ/pHBRfB1n/f1JVN1CSr9FG6WjQXNI5Q5rZYAxhg==}
+  '@elfui/runtime@0.1.0-beta.20':
+    resolution: {integrity: sha512-w1aJulS0zipvmel4+NEZYpwdpKpYtibNX6x36IA99UkuORcjDyoNSeCJSfpHNFTYqE7hNEVkyCPgvjs/2IP3dw==}
 
-  '@elfui/shared@0.1.0-beta.13':
-    resolution: {integrity: sha512-5sumf2TexxBlXwfM86DWArmv+MqX/hIvrGsu14yBXL1TLlg3onnUsM5ki/OeWloK5qc2e8UqEEtKujo+IFO4zQ==}
+  '@elfui/shared@0.1.0-beta.20':
+    resolution: {integrity: sha512-dtnhyIy5JPq7vmhvv2Zmrw4YuIMLO8OT3diIXlP/m9wg6jWJ2mJWfKlaIyJlubckVC91YlmQ7JoCLqFweM26PQ==}
 
   '@emnapi/core@1.11.1':
     resolution: {integrity: sha512-RSvbQmHzdKzNsLYa/wHrbc3KN4sYLKAdPZxqiM2HATqv/SBk2/ENSHpvXGaLOMcsAyz0poEGqkmmKYG3OWiJEQ==}
@@ -1197,22 +1197,20 @@ snapshots:
 
   '@csstools/css-tokenizer@4.0.0': {}
 
-  '@elfui/core@0.1.0-beta.13':
+  '@elfui/core@0.1.0-beta.20':
     dependencies:
-      '@elfui/reactivity': 0.1.0-beta.13
-      '@elfui/runtime': 0.1.0-beta.13
-      '@elfui/shared': 0.1.0-beta.13
+      '@elfui/reactivity': 0.1.0-beta.20
+      '@elfui/runtime': 0.1.0-beta.20
 
-  '@elfui/reactivity@0.1.0-beta.13':
+  '@elfui/reactivity@0.1.0-beta.20':
     dependencies:
-      '@elfui/shared': 0.1.0-beta.13
+      '@elfui/shared': 0.1.0-beta.20
 
-  '@elfui/runtime@0.1.0-beta.13':
+  '@elfui/runtime@0.1.0-beta.20':
     dependencies:
-      '@elfui/reactivity': 0.1.0-beta.13
-      '@elfui/shared': 0.1.0-beta.13
+      '@elfui/reactivity': 0.1.0-beta.20
 
-  '@elfui/shared@0.1.0-beta.13': {}
+  '@elfui/shared@0.1.0-beta.20': {}
 
   '@emnapi/core@1.11.1':
     dependencies:
