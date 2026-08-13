@@ -12,11 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bloom-lmh/elfui-router.git"
+    "url": "git+https://github.com/bloom-lmh/ElfUI-Router.git"
   },
-  "homepage": "https://github.com/bloom-lmh/elfui-router",
+  "homepage": "https://github.com/bloom-lmh/ElfUI-Router",
   "bugs": {
-    "url": "https://github.com/bloom-lmh/elfui-router/issues"
+    "url": "https://github.com/bloom-lmh/ElfUI-Router/issues"
   },
   "publishConfig": {
     "access": "public"
