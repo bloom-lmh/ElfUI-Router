@@ -6,6 +6,7 @@
   },
   "changesets": [
     "align-core-runtime",
+    "fix-initial-history-redirect",
     "release-process",
     "require-core-beta11"
   ]

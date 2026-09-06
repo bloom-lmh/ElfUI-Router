@@ -56,6 +56,27 @@ describe("browser history navigation", () => {
     expect(window.history.state).toMatchObject({ panel: "activity" });
   });
 
+  it("replaces the browser URL after an initial guard redirect", async () => {
+    window.history.replaceState(null, "", "/courses");
+    const router = createRouter({
+      mode: "history",
+      routes: [
+        { path: "/login", component: "login", meta: { public: true } },
+        { path: "/courses", component: "courses" }
+      ]
+    });
+    router.beforeEach((to) =>
+      to.meta.public ? undefined : { path: "/login", query: { redirect: to.fullPath } }
+    );
+
+    await router.isReady();
+
+    expect(router.current.peek().fullPath).toBe("/login?redirect=%2Fcourses");
+    expect(`${window.location.pathname}${window.location.search}`).toBe(
+      "/login?redirect=%2Fcourses"
+    );
+  });
+
   it("reads the current location relative to a history base boundary", () => {
     window.history.replaceState(null, "", "/app/users");
     const scoped = createRouter({

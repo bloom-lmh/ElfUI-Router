@@ -708,7 +708,12 @@ export const createRouter = (opts: RouterOptions): Router => {
     }
 
     const navigationState = typeof to === "object" && to !== null ? to.state : undefined;
-    if (source === "push") writeUrl(target.fullPath, replace, navigationState);
+    // Initial navigation normally reuses the browser's current URL. When a route
+    // redirect or guard changes that destination, however, the redirected URL
+    // must replace the original entry so the address bar matches currentRoute.
+    if (source === "push" || (source === "initial" && redirectedFrom)) {
+      writeUrl(target.fullPath, replace, navigationState);
+    }
     current.value = target;
     isInitialNavigationDone = true;
     readyPromise.resolve();

@@ -1,5 +1,11 @@
 # @elfui/router
 
+## 0.1.0-beta.12
+
+### Patch Changes
+
+- Synchronize the browser URL when initial history navigation is redirected by a route record or navigation guard.
+
 ## 0.1.0-beta.11
 
 ### Patch Changes
